@@ -4,22 +4,35 @@ body {
 }
 .section1 {
     display: flex;
-    justify-content: space-between ;
     background-color: #1f2937;
-    height: 400px;
-}
-.links {
-    display: flex;
-    gap: 20px;
+    height: 70px;
     align-items: center;
-}
-.logo {
-    display: flex;
-    margin-right: auto;
-    font-size: 24px;
-    font-weight: bolder;
+    justify-content: space-between;
+    padding: 0 200px;
 }
 a {
     text-decoration: none;
-    color: white;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+.a1 {
+    font-size: 24px;
+    font-weight: bolder;
+    margin-right: auto;
+}
+.section1 a:not(.a1) {
+    margin-left: 30px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 200px;
+}
+.head{
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
 }
